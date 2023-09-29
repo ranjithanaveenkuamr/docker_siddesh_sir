@@ -14,8 +14,8 @@
     ansible.builtin.get_url:
       url: https://personal54.jfrog.io/artifactory/test-jfrog/webapp-23.war
       dest: /home/tomcat/sourcefile/webapp.war
-      username: devops6789@gmail.com
-      password: Siddu@9880
+      username: ranjuranju5416@gmail.com
+      password: Sarvikarn@5416
 
   - name: create directory with a date in name
     file: 

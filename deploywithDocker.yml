@@ -1,6 +1,8 @@
 ---
 - hosts: websever
   tasks:
+   - name: change permission
+      shell: sudo chmod /var/run/docker.sock  
     - name: login to jfrog
       shell: docker login -u ranjuranju5416@gmail.com -p Sarvikarn@5416 personal54.jfrog.io   
     

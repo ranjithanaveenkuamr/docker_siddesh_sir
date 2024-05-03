@@ -13,6 +13,11 @@
   <properties>
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
+    <properties>
+    <sonar.profile>sonarscan</sonar.profile>
+    <sonar.branch>main_${sonar.profile}</sonar.branch>
+    ...
+   </properties>
   </properties>
 
   <modules>
